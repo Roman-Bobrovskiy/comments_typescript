@@ -1,0 +1,7 @@
+{
+  "send": "https://jordan.ashton.fashion/api/goods/30/comments",
+  "receive": "https://jordan.ashton.fashion/api/goods/30/comments",
+  "page": "?page=",
+  "firstPage": "1",
+  "noData": "https://image.freepik.com/free-vector/man-sitting-on-big-question-mark-symbol_24381-1192.jpg"
+}

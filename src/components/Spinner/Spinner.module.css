@@ -1,0 +1,8 @@
+.spinner {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  justify-content: center;
+  z-index: 100000;
+}

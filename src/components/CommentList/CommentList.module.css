@@ -1,0 +1,54 @@
+.commentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.commentBox {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  background-color: black;
+  border-bottom: 1px solid rgb(85, 85, 85);
+  margin: 0 auto;
+  font-size: 1rem;
+}
+.wrapNameTime {
+  display: flex;
+}
+.name {
+  max-width: 100%;
+  margin: 0;
+  color: white;
+}
+.time {
+  padding-left: 10px;
+  margin: 0;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.text {
+  max-width: 80%;
+  overflow: hidden;
+  padding-left: 1rem;
+  color: gray;
+  margin: 1rem 0 0;
+}
+
+@media (min-width: 1200px) {
+  .text {
+    margin: 2rem 0 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .text {
+    margin: 2rem 0 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .text {
+    margin: 2rem 0 0;
+  }
+}
