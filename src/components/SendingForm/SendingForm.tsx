@@ -25,7 +25,7 @@ export const SendingForm: React.FC<TSendingForm> = ({
           value={onNameData}
           name="name"
           type="text"
-          onChange={onChangeName}
+          onChange={(e) => onChangeName(e)}
           required
           placeholder="Please enter yor name"
         ></input>
@@ -36,7 +36,7 @@ export const SendingForm: React.FC<TSendingForm> = ({
           value={onTextData}
           name="comment"
           type="text"
-          onChange={onChangeText}
+          onChange={(e) => onChangeText(e)}
           required
           placeholder="Enter comment"
         ></input>
