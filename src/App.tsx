@@ -96,10 +96,9 @@ export default class App extends React.Component<any, MyState> {
             current_page: response.current_page,
           }));
         })
+        .then(() => scrollToEndPage()) //scroll
         .catch((error) => this.setState({ error }))
         .finally(() => this.setState({ loading: false }));
-      //scroll
-      scrollToEndPage();
     };
 
     //request page for pagination
